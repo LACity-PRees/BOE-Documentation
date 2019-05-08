@@ -88,7 +88,7 @@ getAccessToken().then( ()=>{
     });   
 
 }).then((data)=>{
-//DO THINGS HERE. 
+process(data);
 
 
 
@@ -119,7 +119,8 @@ setInterval(function() {
             });   
 
     }).then((data)=>{
-        //DO THINGS HERE
+        process(data);
+	    
 
 
 
@@ -133,3 +134,8 @@ setInterval(function() {
 
     // interval in milliseconds (1000 = 1 second)
 }, time);  
+
+function process(data){
+	//DO THINGS HERE
+}
+
