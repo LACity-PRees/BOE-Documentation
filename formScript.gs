@@ -10,7 +10,7 @@ function onFormSubmit(e) {
   var row = sheet.getLastRow();
   var num = row - 1;
 
-  var idCol = [ENTER THE COLUMN THAT THE ID VALUE WILL BE PLACED INTO]
+  var idCol = [ENTER THE COLUMN THAT THE ID VALUE WILL BE PLACED INTO];
   sheet.getRange(row,idCol).setValue(num);
 
 }
